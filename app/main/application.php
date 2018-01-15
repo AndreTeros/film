@@ -4,8 +4,7 @@ class Application {
 
 	const CNAMESPACE = "App\\Controller\\";
 
-	private $oPdo,
-		$CClass,
+	private $CClass,
 		$CMethod;
 
 	private function dbConnect() {

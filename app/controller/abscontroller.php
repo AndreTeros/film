@@ -8,7 +8,6 @@ abstract class AbsController {
 	protected $data;
 	protected $viewPath = Files::PATH."app/view/pages/";
 	protected $tempPath = Files::PATH."app/view/templates/";
-//	protected $modelPath = Files::PATH."app/model/";
 
 	public $oModel;
 
